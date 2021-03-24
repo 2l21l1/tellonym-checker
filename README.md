@@ -7,4 +7,4 @@ not need to descrip :)
 #### cd tellonym-checker
 #### python tellonym-checker
 
-![image](https://user-images.githubusercontent.com/77563746/112294941-d3c37e00-8cac-11eb-9965-bc98f66c23ef.png)
+
