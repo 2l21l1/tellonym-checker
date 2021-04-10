@@ -48,12 +48,13 @@ head = {
 "sec-fetch-dest": "document",
 "accept-encoding": "gzip, deflate, br"
 }
+list = input("[+] ENTER THE List NAME : ")
 
-ff = "list.txt"
+
 def ch():
 	cou = 0
 	mou = 0
-	file = open(ff, 'r')
+	file = open(list, 'r')
 	while True:
 		#free tool not for sell
 		user = file.readline().split('\n')[0]
@@ -84,8 +85,7 @@ def ch():
 					gg.write(f"{user}\n")
 			
 		    
-check = input("""to start check press (y)
-the txt name shoud be list.txt : """)
+check = input("to start check press (y) : ")
 
 
 if check == "y":
