@@ -3,6 +3,9 @@ import threading
 from colorama import Fore
 import threading
 import time
+from os import system
+
+system("title " + "@2L21L1 . TELL-CHECKER")
 
 pw = input("enter password :")
 if pw == "ss":
