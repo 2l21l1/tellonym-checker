@@ -26,10 +26,7 @@ else:
 
 time.sleep(1)
 	
-orr="\033[0;91m"
-gr = "\033[0;92m"
 
-time.sleep(2)
 
 
 
@@ -72,13 +69,13 @@ def ch():
 		
 		if req.status_code == 200:
 			cou += 1
-			print(Fore.RED + f"[{cou}]user is token  >_< @{user}")
+			print(Fore.RED + f"[{cou}] user is token  >_< @{user}")
 			with open('token.txt','a') as gg:
 					gg.write(f"{user}\n")
 		
 		elif req.status_code == 404:
 			mou += 1
-			print(Fore.GREEN + f"[{mou}]user is Available  [+] @{user}")
+			print(Fore.GREEN + f"[{mou}] user is Available @{user}")
 			with open('available.txt','a') as gg:
 					gg.write(f"{user}\n")
 			
