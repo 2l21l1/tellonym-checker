@@ -1,5 +1,5 @@
 # tellonym-checker
-dont need to descrip :)
+
 
 ## the tool pass word is - (solax)
 
