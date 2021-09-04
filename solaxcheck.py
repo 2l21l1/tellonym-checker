@@ -4,7 +4,6 @@ from colorama import Fore
 import threading
 import time
 from os import system
-import socket
 import sys
 
 
@@ -22,14 +21,7 @@ logog = """
        
 by @2l21l1 on instagram
 """
-
-pw = input("enter password : ")
-if pw == "solax":
-	print(logog)
-else:
-	exit()
-
-time.sleep(1)
+print(logog)
 	
 
 
